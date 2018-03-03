@@ -1,7 +1,11 @@
+.trophies {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
 .trophy {
-  float: right;
+  float: none;
   width: 32%;
   margin-left: 34%;
-  margin-right: 34%;
   margin-bottom: 30px;
 }
