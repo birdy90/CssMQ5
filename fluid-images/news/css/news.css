@@ -12,7 +12,7 @@
 	float: left;
 	margin-bottom: 20px;
 	padding: 30px 20px;
-	width: calc(50% - 20px);
+	width: calc(50% - 10px);
 }
 
 .card:nth-child(even) {
