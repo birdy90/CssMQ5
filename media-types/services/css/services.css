@@ -7,13 +7,3 @@
     margin-right: auto;
     display: flex;
 }
-
-.service {
-    display: inline-block;
-}
-
-@media screen and (max-width: 1023px) {
-    .services {
-        max-width: 1024px;
-    }
-}
