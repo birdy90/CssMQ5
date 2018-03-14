@@ -3,6 +3,8 @@
   color: #ffffff;
   min-height: 565px;
   
+  height: 100vh;
+  
   background-image: url(../img/man-full.jpg);
   background-repeat: no-repeat;
   background-position: center 50%;
@@ -13,14 +15,14 @@
 @media (max-width: 1023px) {
 
   .container {
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
   }
 }
 
 @media (min-width: 1024px) {
   .welcome__info {
-    padding-left: 85px;
+    padding-left: 35%;
     max-width: 700px;
   } 
 }
