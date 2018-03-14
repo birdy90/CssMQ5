@@ -2,13 +2,8 @@
   font-size: 2em;
 }
 
-.post__content {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 .post__name {
+  margin:auto;
   font-size: 1.5em;
 }
 
