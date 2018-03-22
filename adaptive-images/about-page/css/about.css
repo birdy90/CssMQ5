@@ -1,0 +1,28 @@
+.page {
+  display: flex;
+}
+
+@media screen and (min-width: 961px) {
+  .page {
+    flex-direction: row-reverse;
+  }
+
+  .aside {
+    width: 320px;
+    margin-right: 40px;
+    flex-shrink: 0;
+  }
+  
+  .content {
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .page {
+    flex-direction: column;
+  }
+  
+  .aside__menu {
+    display: none;
+  }
+}
