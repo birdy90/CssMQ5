@@ -4,12 +4,12 @@
 
 @media screen and (min-width: 961px) {
   .page {
-    flex-direction: row-reverse;
   }
 
   .aside {
     width: 320px;
     margin-right: 40px;
+    order: -1;
     flex-shrink: 0;
   }
   
